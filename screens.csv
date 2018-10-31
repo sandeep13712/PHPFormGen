@@ -1,0 +1,14 @@
+FormNo,Label,Name,Type,TableName,FromTable,FromField,Options
+1,Available Online,onlineAvailable,lst,Books,None,None,"Yes,No"
+1,Book title,bookTitle,text,Books,None,None,None
+1,Book description,bookDesc,textarea,Books,None,None,None
+1,Similar book,simBooks,lstMultiFromDB,Books,Books,bookTitle,None
+1,Publisher,publisher,lstFromDB,Books,Publishers,PublisherName,None
+1,Date of publishing,pubDate,datetime,Books,None,None,None
+1,Book front image,frontImage,file,Books,None,None,None
+2,Username,uname,text,Users,None,None,None
+2,EmailID,emailid,email,Users,None,None,None
+2,password,password,password,Users,None,None,None
+2,Allowed Operations,allowedOperations,text,Users,None,None,None
+3,Publisher Name,pubName,text,Publishers,None,None,None
+3,Publisher Address,pubAdd,textarea,Publishers,None,None,None

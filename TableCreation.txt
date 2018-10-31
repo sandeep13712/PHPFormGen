@@ -1,0 +1,6 @@
+CREATE TABLE Books(onlineAvailable varchar(255),bookTitle varchar(255),bookDesc varchar(255),simBooks varchar(255),publisher varchar(255),pubDate varchar(255),frontImage varchar(255)); 
+
+CREATE TABLE Users(uname varchar(255),emailid varchar(255),password varchar(255),allowedOperations varchar(255)); 
+
+CREATE TABLE Publishers(pubName varchar(255),pubAdd varchar(255)); 
+
